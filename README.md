@@ -1,1 +1,2 @@
-HomePi - Raspberry Pi based lego house with LCD screen
+ Raspberry Pi Lego house with LCD screen
+========================================
