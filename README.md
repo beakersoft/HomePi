@@ -21,6 +21,7 @@ So running the following should get you into a ready to run state
 ```
 sudo apt-get install git-core
 sudo apt-get install apache2
+mkdir /var/www/homepi/graphs/
 sudo apt-get rrdtool
 sudo apt-get install python-rrd
 ```
@@ -29,6 +30,16 @@ For the twitter python librarys see [here](https://github.com/bear/python-twitte
 Then, drop into wherever you want to run the script from, and run 
 
 ```
+git clone https://github.com/beakersoft/HomePi.git
+```
 
+Now all thats left to do is edit the HomePi.py script with your own details for the twitter api. At the top of the script, fill in your details for
 
-
+```python
+twitter_loc_code 
+twitter_cons_key 
+twitter_cons_sec
+twitter_access_key
+twitter_access_sec
+```
+Run the script by running ./HomePi.py as root. You also might want to add it to init.d so it you can run it as a startup script
