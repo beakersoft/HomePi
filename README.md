@@ -8,7 +8,27 @@ Installation
 
 There are a couple of things you need to install first before the script in its current state will work.
 
-- Apache2
-- RRDTool 
+- Python -  Should already be installed on your Pi is your are using one of the popular Distros. Script is written in Python
+- Git - Used to pull down the various projects onto your Pi
+- Apache2 - Used to view the graphs being created 
+- RRDTool - Used to create graphs from the temperature and humidity
+- Extra python extensions for twitter and rrd
+- If you are using the Adafruit LCD screen check out [this artical as well](http://learn.adafruit.com/drive-a-16x2-lcd-directly-with-a-raspberry-pi/overview)
+- If you are going to use any 1-Wire devices this needs enabling in the kernal
+
+So running the following should get you into a ready to run state
+
+```
+sudo apt-get install git-core
+sudo apt-get install apache2
+sudo apt-get rrdtool
+sudo apt-get install python-rrd
+```
+For the twitter python librarys see [here](https://github.com/bear/python-twitter)
+
+Then, drop into wherever you want to run the script from, and run 
+
+```
+
 
 
