@@ -25,10 +25,10 @@ trend_string = ""
 str_pad = " " * 16
 date_twitter_cache = datetime.datetime.now()
 twitter_loc_code = 23424975
-twitter_cons_key = "WvaGiKWM7vwz0mqulZv2w" 
-twitter_cons_sec = "fBO3JTrwwZ9dwJRrca6jFcFrhDzox6oXMhWajvaY" 
-twitter_access_key = "101849409-Di2Uh1Trdv9Cqg5RZCJkVONtxSIoMJihnvHjq0CR" 
-twitter_access_sec = "NikB3wNxQ92lWxHovixjcweQ3sj46qJZmAob9JeiHA"
+twitter_cons_key = "[your_key_here]" 
+twitter_cons_sec = "[your_secret_here]" 
+twitter_access_key = "[your_key_here]" 
+twitter_access_sec = "[your_secret_here]"
 
 log_rrd = True
 rrd_root = "/home/pi/HomePi/RRDFiles/" 
